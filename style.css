@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Calibri', sans-serif;
+}
+.title {
+    text-align: center;
+    margin: 2rem;
+}
+#container{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card{
+    width: 30%;
+    padding: 1rem;
+    text-align: center;
+    margin: 1rem 0;
+    border: 2px solid #3333;
+}
+.card img {
+    width: 100%;
+}
+.card a {
+    color: #00002f;
+}
